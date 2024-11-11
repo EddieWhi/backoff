@@ -9,7 +9,7 @@ its [Golang port](https://github.com/cenkalti/backoff).
 [![crates.io](http://meritbadge.herokuapp.com/backoff)](https://crates.io/crates/backoff)
 [![Documentation](https://docs.rs/backoff/badge.svg)](https://docs.rs/backoff)
 
-Compile with feature `wasm-bindgen` or `stdweb` for use in WASM environments. `retry_notify` is not yet supported, as it uses `std::thread::sleep`.
+Compile with feature `wasm-bindgen` for use in WASM environments. `retry_notify` is not yet supported, as it uses `std::thread::sleep`.
 
 :warning: **BREAKING CHANGES**: migration instructions under [Breaking changes](#breaking-changes).
 
